@@ -1,0 +1,51 @@
+.tetiere {
+	height:85px;
+	text-align: center;
+	background-color: white;
+}
+
+.tetiere h1 {
+	float: left;
+	font-size: 1.8em;
+	color: white;
+	padding-left:10px;
+	font-style:italic;
+	position: relative;
+	height: 36px;
+}
+
+.tetiere .bandeau {
+	height: 36px;
+	background-color:#0057a0;
+}
+
+.tetiere .liens {
+	float: right;
+	color: white;
+	height: 36px;
+	line-height:36px;
+	padding-right:20px;
+	position: relative;
+}
+
+.tetiere .liens a {
+	color: white;
+	text-decoration: none;
+	padding : 0;
+}
+
+.tetiere .logoam {
+	margin-top: -36px;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-radius: 0 0 10px 10px;
+	background-color: white;
+}
+.r_lien_image {
+	border-bottom: none;
+}
+
+.r_lien_image:hover {
+	border-bottom: none;
+}

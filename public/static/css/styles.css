@@ -1,0 +1,40 @@
+h1{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  border-bottom: dotted 1px;
+  color: #0062ad;
+}
+
+a:hover {
+  text-decoration: none;
+  border-bottom: solid 1px;
+}
+html {
+  background-color: white;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.875em;
+  background-color: white;
+  color: #000;
+}
+/** Prefooter ameli sur toute la largeur **/
+@media only screen and (min-width: 750px) {
+}
+
+.main{
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}

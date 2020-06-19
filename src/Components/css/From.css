@@ -1,0 +1,36 @@
+.centrepage{
+	margin:4px;
+}
+
+.blocformfond {
+	background: #EEF5F9; /*#e6e6e6; /*#e6e6e6; /* #D2D2D2; /*#B75190; /* /*#E0F0FF;*/
+	padding: 5px;
+	padding-bottom : 20px;
+	margin: 20px 1px 10px 1px;
+	line-height: 1.5em;
+	border: solid 0px lightblue;
+	clear: both;
+}
+.blocformfond h2{
+	color: #0062AD; /*#B75190; */
+	font-size: 1.2em;
+	margin: 10px 0px;
+	padding: 0px;
+}
+.blocformfond fieldset{
+	background:white;
+	border: 1px solid lightblue; /*#B75190; /*#B75190*/
+}
+.blocformfond fieldset legend{
+	color: #0062AD; /*#B75190; /* /* /**/
+	font-size : 1.2em;
+	padding-left:10px;
+	padding-right:10px;
+	position : relative;
+	display:none;
+	}
+.r_obligatoire {
+	width: 100%;
+	margin-bottom: 5px;
+	text-align : right;
+}

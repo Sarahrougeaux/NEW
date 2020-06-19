@@ -1,0 +1,114 @@
+
+.wlp-bighorn-footer #Footer
+{
+    background-color: white;
+}
+
+.wlp-bighorn-footer #Footer li a
+{
+	color: white;
+}
+.wlp-bighorn-window
+{
+    border-color: #807059;
+}
+
+.wlp-bighorn-window-content
+{
+    /* background-color: white; */
+}
+.prefooterbody.seul .ameli {
+    border-bottom: 1px solid #bfbfbf;
+    margin-left: 0;
+}
+.prefooterbody {
+	position:relative;
+	border-top: 1px solid #bfbfbf;
+    background-color: #f5f5f5;
+}
+
+.prefooterbody li {
+	background: url("/static/images/picto-fleche-action.png") no-repeat scroll 0 60%;
+	vertical-align: top;
+	list-style-type:none;
+	padding-left:20px;
+}
+
+.prefooterbody .legende {
+    line-height: 1.7em;
+    font-size: 0.9em;
+}
+
+.prefooterbody .ameli{
+	background: url("/static/images/ameli-footer.png") no-repeat scroll 0 0;
+	padding:15px 0 0 180px;
+	height:100px;
+	margin-left:542px;
+}
+
+/** Prefooter ameli sur toute la largeur **/
+@media only screen and (max-width: 659px) {
+	.prefooterbody .ameli {
+		margin-left:0px;
+		padding-top: 15px;
+		height: auto;
+	}
+}
+
+
+.prefooterbody .icone{
+	position: absolute;
+	top: -65px;
+	left: 15px;
+}
+
+.prefooterbody .action {
+	line-height:1.7em;
+	font-size: 0.9em;
+}
+.wlp-bighorn-footer #Footer {
+	margin-top: 20px;
+}
+
+.wlp-bighorn-footer #Footer ul {
+    list-style-type: none;
+    list-style-position: outside;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: table;
+    height: 50px;
+    background-color: #0057a0;
+}
+
+.wlp-bighorn-footer #Footer li {
+    display: table-cell;
+    width: 19.3%;
+    margin-right: 0.5%;
+    text-align: center;
+    position: relative;
+    background: url("/static/images/menu-separateur.png") no-repeat scroll left center;
+}
+
+/** Footer sur une colonne orient� verticalement **/
+@media only screen and (max-width: 659px) {
+	.wlp-bighorn-footer #Footer li {
+		display: block;
+		width: 100%;
+		background-image: none;
+		border-bottom: 1px solid white;
+	}
+}
+
+.wlp-bighorn-footer #Footer li:first-child {
+	background-image: none;
+}
+
+.wlp-bighorn-footer #Footer li a {
+    line-height: 50px;
+}
+.wlp-bighorn-footer
+{
+    padding-top: 15px;
+    clear: both;
+}

@@ -1,0 +1,75 @@
+@media screen and (min-width: 200px) and (max-width: 750px) {
+	.r_ddc_half_screen {
+		width: 30%;
+		display: inline-block;
+	}
+}
+@media screen and (min-width: 750px) {
+	.r_ddc_half_screen {
+		width: 48%;
+		display: inline-block;
+	}
+}
+input[type="text"] , input[type="password"]{
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    font-size: 1em;
+    height: 34px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    margin-bottom: 10px;
+    vertical-align:baseline;
+}
+@media screen and (min-width: 200px) and (max-width: 350px) {
+	input[type="text"]{
+		width: 100%;
+	}
+}
+select{
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    height: 34px;
+    line-height: 1.42857;
+    margin-bottom: 10px;
+    vertical-align:baseline;
+}
+.message_erreur {
+    display: inline-block;
+    color: #bb0f00;
+}
+b.erreur_champ {
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-image: url('/static/images/picto_erreur.gif');
+    display: inline-block;
+    padding-right: 32px;
+    margin-right: 5px;
+}
+
+.erreur_champ input[type="text"],.erreur_champ input[type="password"] {
+    border-color: #bb0f00;
+    background-color: #fffedb;
+}
+.erreur_champ select {
+    border-color: #bb0f00;
+    background-color: #fffedb;
+}
+b.erreur_champ {
+	background-position: right 10px;
+	background-image: url('/static/images/picto_erreur.png');
+}
+.creationimmediate .message_erreur {
+	padding-bottom: 15px;
+}
+.creationimmediate .right_side {
+    padding-left: 50%;
+}

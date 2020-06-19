@@ -1,0 +1,66 @@
+/* bouton submit */
+
+.r_btsubmit {
+    background-color: #2C9AD2;
+    color: #fff;
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid #2C9AD2;
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 5px;
+    min-width: 30%;
+}
+
+.r_btretour {
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid #2C9AD2;
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 5px;
+    min-width: 30%;
+    background-color: #fff;
+    color: #2C9AD2;
+}
+
+.r_btsubmit:hover, .r_btsubmit:focus {
+	background-color: #23AEE5;
+	border: 1px solid #2C9AD2;
+    color: #fff;
+    text-decoration : none;
+}
+
+.r_btsubmit:active {
+	background-color: #1F6E8C;
+	border: 1px solid #1F6E8C;
+    color: #fff;
+    text-decoration : none;
+}
+
+.r_btsubmit:disabled, .r_btsubmit.r_disabled {
+	cursor:not-allowed;
+	pointer-events:none;
+	opacity:0.55;
+	filter:alpha(opacity=55);
+}

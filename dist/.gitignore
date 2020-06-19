@@ -1,0 +1,5 @@
+.venv/*
+__**
+.vscode/**
+Docker*
+docker*

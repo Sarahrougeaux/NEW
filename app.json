@@ -1,0 +1,46 @@
+{
+  "name": "obfuscated-app",
+  "scripts": {
+  },
+  "env": {
+    "FOUNDELASTICSEARCH_URL": {
+      "required": true
+    },
+    "MAILGUN_API_KEY": {
+      "required": true
+    },
+    "MAILGUN_DOMAIN": {
+      "required": true
+    },
+    "MAILGUN_PUBLIC_KEY": {
+      "required": true
+    },
+    "MAILGUN_SMTP_LOGIN": {
+      "required": true
+    },
+    "MAILGUN_SMTP_PASSWORD": {
+      "required": true
+    },
+    "MAILGUN_SMTP_PORT": {
+      "required": true
+    },
+    "MAILGUN_SMTP_SERVER": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+    "foundelasticsearch",
+    "mailgun"
+  ],
+  "stack": "heroku-18",
+  "buildpacks": [
+    {
+      "url": "https://github.com/mars/create-react-app-buildpack.git"
+    }
+  ]
+}
